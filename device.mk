@@ -21,12 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.pineapple
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.pineapple \
-    libgptutils \
-    libz \
-    libcutils
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
